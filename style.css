@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+
+header {
+    padding-top: 30px;
+    width: 100vw;
+    text-align: center;
+}
+header h1 {
+    font-size: 55px;
+}
+
+.main {
+    gap: 10px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.main-element {
+    text-align: center;
+}
+
+.main-img {
+    width: 80%;
+    height: 90%;
+}
